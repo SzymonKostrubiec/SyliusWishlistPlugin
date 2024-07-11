@@ -29,10 +29,6 @@ jobs:
                 mysql: ["8.0"]
                 state_machine_adapter: ["winzou_state_machine", "symfony_workflow"]
 
-                exclude:
-                    -
-                        sylius: ~1.12.0
-                        state_machine_adapter: "symfony_workflow"
         env:
             APP_ENV: test
             DATABASE_URL: "mysql://root:root@127.0.0.1/sylius?serverVersion=${{ matrix.mysql }}"
