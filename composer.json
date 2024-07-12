@@ -69,7 +69,8 @@
             "phpstan/extension-installer": true,
             "composer/package-versions-deprecated": true,
             "dealerdirect/phpcodesniffer-composer-installer": true,
-            "symfony/thanks": true
+            "symfony/thanks": true,
+            "symfony/runtime": true
         },
         "preferred-install": {
             "sylius/sylius": "source"
